@@ -1,0 +1,348 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#leftpanel {
+    line-height:30px;
+    width:15%;
+    float:left;
+    padding:5px;
+    margin: 5px;
+    word-wrap: break-word;
+    
+}
+#section {
+    width:65%;
+    float:left;
+    padding:10px;
+    margin: 5px;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    border-right:1px solid #eaebec !important;
+    border-left:1px solid #eaebec !important;
+}
+#rightpanel {
+    line-height:30px;
+    background-color:#ffffff;
+    width:5%;
+    float:right;
+    padding:10px;
+    word-wrap: break-word;
+
+}
+.questionheader h2{
+    color: #0e2f44;
+    margin: 10px;
+    padding: 5px;
+}
+.questionheader{
+    margin: 10px;
+    padding: 5px;
+}
+.question{
+    margin: 10px;
+    padding: 5px;
+}
+.question textarea{
+    resize:vertical;
+}
+.question h2{
+    color: #0e2f44;
+    margin: 10px;
+    padding: 5px;
+}
+.status-grid p{
+    background-color: #F5F8FA;
+    margin: 8px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+textarea{
+    resize:vertical;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+.status-grid a{
+    text-decoration: none;
+}
+.status-grid a{
+    margin-bottom: 5px;
+}
+.username a{
+    color:#0095FF;
+    float: right;
+}
+.username h4{
+    color:#ececec;
+    float: right;
+}
+.username{
+    margin-bottom: 5px;
+}
+.title a{
+    color:#0095FF;
+    text-decoration: none;
+}
+.title{
+    word-wrap:break-word;
+    padding: 10px;
+    margin-top: 5px;
+}
+.title a:hover{
+    color: #33B1FF;
+}
+.status_header2{
+    margin-bottom: 30px;
+    padding: 5px;
+    
+}
+.status2{
+    padding-bottom: 20px;
+    margin: 20px;
+    white-space: pre;
+    border-bottom: 2px solid  #eaebec !important;
+}
+
+.comment_image{
+    float: left;
+    padding: 5px;
+}
+.comment_name{
+    padding: 5px;
+}
+.fullcomment{
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.maincomment{
+    margin-left: 10%;
+}
+.status-back{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.credits{
+    padding: 5px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.vote{
+ padding: 7px;
+ text-align: center;
+ color: #ffffff;
+ background-color: #73AD21;
+}
+.answer{
+ color: #ffffff;
+ padding: 7px;
+ text-align: center;
+ background-color: #75845C;
+}
+.view{
+ padding: 7px;
+ text-align: center;
+ color: #ffffff;
+ background-color: #01AD4B;
+
+}
+.tags{
+
+}
+/*--login--*/
+.login { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    width:300px;
+    height:300px;
+}
+.login h1{
+    color: #314D68;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    letter-spacing:1px;
+    text-align:center;
+    padding-bottom: 10px;
+}
+.checkbox input{
+    background-color: none;
+}
+.login input { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #000;
+    
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+}
+.login input:focus { box-shadow: inset 0 -5px 45px rgba(50,200,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+.status_header2 a{
+    text-decoration: none;
+    color: #0095FF;
+}
+.status_header2 a:hover{
+    color: #7FB1FF;
+}
+.tag{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.button{
+    margin-top: 20px;
+}
+.delete{
+    float: right;
+    margin: 5px;
+}
+.edit{
+    float: right;
+    margin: 5px;
+}
+.left_titile{
+    background-color:#01AD4B;
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+}
+.left_titile h3{
+    text-align: center;
+}
+.status_types{
+    padding: 10px;
+    background-color: #75845C;
+    border-bottom: 2px #EAEBEC;
+}
+.status_types a{
+    color: #ffffff;
+}
+.forcomment textarea{
+    color: #000;
+    margin-left: 30px;
+}
+.time{
+
+}
+.proimg{
+    float: right;
+    border-radius: 10px;
+}
+.search{
+    float: center;
+    display: flex;
+    flex-wrap:wrap;
+}
+.search textarea{
+     border-radius: 10px;
+     margin-left: 80px;
+     margin-top: 20px;
+     resize:none;
+}
+.searchbutton input{
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.searchbutton input:hover{
+    background-color: #33B1FF;
+}
+.hint{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.hint a{
+    text-decoration: none;
+}
+.suggetion{
+    border-bottom: 1px solid #eaebec;
+    word-wrap:break-word;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.like{
+    border: 10px;
+    margin: 20px;
+    margin-left: 5px;
+    border-top:1px solid #eaebec;
+    border-bottom: 1px solid #eaebec;
+}
+.upvote {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  background: url('http://i.stack.imgur.com/iqN2k.png');
+  background-position: 0 -25px;
+} 
+.downvote{
+   width:30px;
+   height: 20px;
+   background: url('downvote.jpg') 0 0 no-repeat;
+   cursor: pointer;
+}
+
+.upvote.on {
+  background-position: 0 2px;
+}
+.rating{
+    color: #ffffff;
+    background-color: #937C2B;
+}
+.upload{
+    float: right;
+}
+.adminlogin {
+    color: #F27521;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -150px;
+    width:300px;
+    height:300px;
+}
+.adminlogin h1{
+    color: #314D68;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    letter-spacing:1px;
+    text-align:center;
+    padding-bottom: 10px;
+}
+.adminlogin input { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #314D68;
+    
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+}
+.adminlogin input:focus { box-shadow: inset 0 -5px 45px rgba(50,200,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
